@@ -1,0 +1,104 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: rgb(19, 151, 228);
+        }
+        
+        section {
+            position: relative;
+            height: 100vh;
+        }
+        
+        .wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            width: 342px;
+        }
+        
+        .wrapper__header {
+            text-align: center;
+            color: black;
+            margin-bottom: 10px;
+        }
+        
+        .wrapper__input {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .wrapper__input input {
+            padding: 15px 0;
+            border-radius: 3px;
+            border: 2px solid #eee;
+            outline: 0;
+            text-align: center;
+            width: 100%;
+            font-size: 15px;
+            color: rgb(31, 162, 238);
+        }
+        
+        .wrapper__input input:focus {
+            border: 1px solid rgb(19, 151, 228);
+            ;
+        }
+        
+        .fa-search {
+            color: #eee;
+            position: absolute;
+            left: 5px;
+            top: 17px;
+        }
+        
+        .fa-times {
+            color: #eee;
+            position: absolute;
+            right: 5.5px;
+            top: 17px;
+        }
+        
+        .wrapper__details__detail {
+            border-bottom: 1px solid #eee;
+            margin-bottom: 20px;
+        }
+        
+        .wrapper__details__detail__right {
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        .wrapper__details__detail__Meaning,
+        .wrapper__details__detail__example,
+        .wrapper__details__detail__synonym,
+        .wrapper__details__detail__adjective__phonetic,
+        .wrapper__details__detail__adjective__adj,
+        .wrapper__p {
+            text-transform: capitalize;
+            color: #eee;
+        }
+        
+        .wrapper__p {
+            text-align: center;
+        }
+        
+        .wrapper__details {
+            display: none;
+        }
+        
+        .wrapper__details__detail__synonym {
+            overflow-y: auto;
+        }
+        
+        .wrapper__details__detail__left {
+            text-transform: capitalize;
+        }
